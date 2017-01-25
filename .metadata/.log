@@ -107,3 +107,15 @@ Caused by: java.io.IOException: Packing cancelled during objects writing
 	at org.eclipse.jgit.transport.BasePackPushConnection.writePack(BasePackPushConnection.java:320)
 	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:200)
 	... 9 more
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-25 21:41:43.256
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-25 21:41:43.257
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-25 21:41:43.295
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-01-25 21:41:43.295
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

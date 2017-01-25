@@ -1,0 +1,5 @@
+<html>
+<body>
+	<h2>Olá mundo com spring MVC Rodrigo Ramos!</h2>
+</body>
+</html>
