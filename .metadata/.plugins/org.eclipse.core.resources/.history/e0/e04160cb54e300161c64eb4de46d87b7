@@ -37,4 +37,5 @@ springmvc
 /
 </url-pattern>
 </servlet-mapping>
+teste
 </web-app>
