@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.caelum.tarefas.controller;
+
+/**
+ * @author Rodrigo Ramos
+ *
+ */
+public class OlaMundoController {
+
+}

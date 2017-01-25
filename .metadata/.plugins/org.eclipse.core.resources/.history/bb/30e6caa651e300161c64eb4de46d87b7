@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.caelum.tarefas.controller;
+
+/**
+ * @author web6600
+ *
+ */
+public class OlaMundoController {
+
+}
