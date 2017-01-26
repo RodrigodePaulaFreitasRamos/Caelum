@@ -134,3 +134,6 @@ Caused by: java.io.IOException: Packing cancelled during objects writing
 
 !ENTRY org.eclipse.ui.navigator 4 0 2017-01-25 22:08:07.090
 !MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Servers".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2017-01-25 22:45:21.918
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/fj21-tarefas/WebContent/WEB-INF/views/tarefa".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
