@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Wed Jan 25 21:54:45 BRST 2017
-org.eclipse.jst.jee.server\:/binary\:/home/web6600/tarefa/fj21-tarefas/WebContent/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar=WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
