@@ -18,7 +18,7 @@ public class TarefasController {
 	public String adiciona (Tarefa tarefa) {
 		JdbcTarefaDao dao= new JdbcTarefaDao();
 		dao.adiciona(tarefa);
-		return "tarefa/adicionada";
+		return "tarefa/adiciona";
 	}
 	
 	

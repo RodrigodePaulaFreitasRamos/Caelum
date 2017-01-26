@@ -7,6 +7,7 @@ import br.com.caelum.tarefas.dao.JdbcTarefaDao;
 import br.com.caelum.tarefas.modelo.Tarefa;
 
 @Controller
+
 public class TarefasController {
 	@RequestMapping("novaTarefa")
 	public String form() {
@@ -18,7 +19,7 @@ public class TarefasController {
 	public String adiciona (Tarefa tarefa) {
 		JdbcTarefaDao dao= new JdbcTarefaDao();
 		dao.adiciona(tarefa);
-		return "tarefa/adicionada";
+		return "tarefa/adiciona";
 	}
 	
 	
