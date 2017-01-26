@@ -8,11 +8,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Lista</title>
+<title>Lista Rodrigo</title>
 </head>
 <body>
 <a href="novaTarefa">Criar nova tarefa</a>
 <br/> <br/>
+
 <table>
 <tr>
 <th>Id</th>
@@ -20,14 +21,14 @@
 <th>Finalizado?</th>
 <th>Data de Finalização</th>
 </tr>
-<c:forEach items="${tarefas}" var="tarefa">
+<c:forEach intens="${tarefas}"var="tarefa">
 <tr>
 <td>${tarefa.id}</td>
 <td>${tarefa.descricao}</td>
 <c:if test="${tarefa.finalizado eq false}">
 <td>Não Finalizado</td>
 </c:if>
-<c:if test= "${tarefa.finalizado eq true}">
+<c:if test= "${tarefa.finalizado eq true">
 <td>Finalizado!!!</td>
 </c:if>
 <td>
