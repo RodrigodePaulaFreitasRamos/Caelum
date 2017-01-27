@@ -29,6 +29,10 @@
 </c:if>
 <c:if test= "${tarefa.finalizado eq true}">
 <td>Finalizado!!!</td>
+<td><a href="removeTarefa?id=${tarefa.id}">Remover</a>
+</td>
+<td><a href="mostraTarefa?id=${tarefa.id}">Alterar</a>
+</td>
 </c:if>
 <td>
 <fmt:formatDate
