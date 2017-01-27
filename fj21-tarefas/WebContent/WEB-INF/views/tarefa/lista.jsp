@@ -7,11 +7,22 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <html>
 <head>
+<script type="text/javascript" src= "resources/js/jquery.js" ></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Lista</title>
 </head>
 <body>
+<script type="text/javascript">
+function finalizaAgora(id){
+	$.post("finalizaTarefa",{'id':id},function(){
+		//selecionando o elemento html através da 
+	   //ID e alterando o html dele
+	   $("#tarefa_"+id).html("Finalizado");
+	});
+}
 <a href="novaTarefa">Criar nova tarefa</a>
+
+</script>https://www.caelum.com.br/home/sp/FJ-21
 <br/> <br/>
 <table>
 <tr>
@@ -25,6 +36,10 @@
 <td>${tarefa.id}</td>
 <td>${tarefa.descricao}</td>
 <c:if test="${tarefa.finalizado eq false}">
+<td id="tarefa_${tarefa.id}">
+<a href="#" onClick= "finalizaAgora(${tarefa.id})">
+Finaliza agora!
+</a>
 <td>Não Finalizado</td>
 </c:if>
 <c:if test= "${tarefa.finalizado eq true}">
