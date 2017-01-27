@@ -38,7 +38,7 @@ public class JdbcTarefaDao {
 	public void remove(Tarefa tarefa) {
 
 		if (tarefa.getId() == null) {
-			throw new IllegalStateException("Id da tarefa não deve ser nula.");
+			throw new IllegalStateException("Id da tarefa nao deve ser nula.");
 		}
 
 		String sql = "delete from tarefas where id = ?";
@@ -93,7 +93,7 @@ public class JdbcTarefaDao {
 	public Tarefa buscaPorId(Long id) {
 
 		if (id == null) {
-			throw new IllegalStateException("Id da tarefa não deve ser nula.");
+			throw new IllegalStateException("Id da tarefa nao deve ser nula.");
 		}
 
 		try {
@@ -119,7 +119,7 @@ public class JdbcTarefaDao {
 	public void finaliza(Long id) {
 
 		if (id == null) {
-			throw new IllegalStateException("Id da tarefa não deve ser nula.");
+			throw new IllegalStateException("Id da tarefa nao deve ser nula.");
 		}
 
 		String sql = "update tarefas set finalizado = ?, dataFinalizacao = ? where id = ?";

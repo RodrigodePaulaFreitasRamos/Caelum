@@ -45,7 +45,7 @@ public class TarefasController {
 		
 		JdbcTarefaDao dao= new JdbcTarefaDao();
 		dao.remove(tarefa);
-		return "redirect:listaTarefas";
+		return "redirect:listaTarefa";
 	}
 	@RequestMapping("mostraTarefa")
 	public String mostra (Long id,Model model) {
@@ -61,8 +61,7 @@ public class TarefasController {
 		
 		JdbcTarefaDao dao= new JdbcTarefaDao();
 		dao.altera(tarefa);
-		return "redirect: listaTarefas";
+		return "redirect: listaTarefa";
 		
-	
 }
 }

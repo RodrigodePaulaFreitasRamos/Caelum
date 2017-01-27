@@ -7,12 +7,24 @@
 
 <input type="hidden" name="id" value="${tarefa.id}" />
 Descrição:<br />
-<textarea name="descricao" rows="5" cols="100"></textarea>
+<textarea name="descricao" rows="5" cols="100">
 ${tarefa.descricao}
 </textarea>
 
-<input type="submit" value="Alterar"/>
-<br/>
+<br />
+
+Finalizado? <input type="checkbox" name= "finalizado"
+value="true" ${tarefa.finalizado? 'checked' : ''}/><br/>
+
+Data de finalização: <br />
+<input type="text" name= "dataFinalizacao"
+	value="<fmt:formatDate
+		value="${tarefa.dataFinalizacao.time}"
+			pattern="dd/MM/yyyy"/>"/>	
+<br />
+
+<input type="submit" value="Alterar" />
 </form>
+
 </body>
 </html>
