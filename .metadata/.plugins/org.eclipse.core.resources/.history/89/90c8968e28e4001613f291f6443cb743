@@ -1,0 +1,10 @@
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<html>
+<body>
+<h3>Alterar tarefa - ${tarefa.id }</h3>
+<form action= "alteraTarefa" method="post">
+
+<input type="hidden" name="id" value="${tarefa.id}" />
+</body>
+</html>
